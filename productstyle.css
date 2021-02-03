@@ -48,12 +48,27 @@ h6 {
 }
 
 main {
+  margin-top: 10%;
   display: grid;
-  grid-template-areas:
-    ". img img in ."
-    ". img img in ."
-    ". img img . ."
-    ". img img . .";
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+#info {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.gallery__item gallery__item--1 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }

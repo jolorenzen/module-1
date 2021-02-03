@@ -1,0 +1,49 @@
+ul {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40%;
+  margin-right: 40%;
+  align-items: center;
+  font-size: 15px;
+  padding: 0;
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Work Sans", sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+  color: gray;
+}
+
+a:visited {
+  color: gray;
+}
+
+h1 {
+  font-family: "Allan", cursive;
+  font-size: 4vw;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+#categories {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 25%;
+  margin-right: 25%;
+  color: gray;
+}
